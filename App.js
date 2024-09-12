@@ -105,7 +105,7 @@ const Login = () => {
   );
 };
 
-export  function pp() {
+export  function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Readypage">

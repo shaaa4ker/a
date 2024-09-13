@@ -39,7 +39,7 @@ const Stack = createStackNavigator();
     <Icon name='plus' style={styles.plusicon} size={30} />
     </TouchableOpacity>
 
-    <TouchableOpacity   onPress={handleiconpress}>
+    <TouchableOpacity   onPress={() => navigation.navigate('Settingtemp')}>
     <HomepageWithNavigation/>
 
     <Icon name='cog' style={styles.cogicon} size={30} />
